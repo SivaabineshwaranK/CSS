@@ -1,0 +1,52 @@
+.nav{
+    background-color: antiquewhite;
+    height: 80px    ;
+}
+
+.main{
+    background-color: blueviolet;
+    
+}
+
+.nav > h2{
+    color: rgb(118, 231, 6);
+}
+
+.main > h1{
+    color: rgb(38, 1, 21);
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: -2px -3px 1px rgb(157, 15, 15);
+    
+}
+
+
+
+.main > p{
+    font-style: italic;
+    font-size: 21px;
+    color: gold;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    text-indent: 100px;
+    line-height: 30px;
+
+}
+
+.main > a{
+    color: red;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    background-color: rgb(226, 173, 173);
+    color: rgb(95, 41, 21);
+    text-transform: capitalize;
+    text-align: justify;
+
+}

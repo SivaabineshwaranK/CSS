@@ -1,0 +1,42 @@
+nav{
+    background-color: red;
+    height: 100px;
+}
+main{
+    height: 250px;
+    background-color: aqua;
+}
+/*
+h1{
+    color: white;
+}*/
+
+#logo{
+    color: white;
+}
+
+section{
+    height: 250px;
+    background-color: bisque;
+}
+
+.para{
+    color: red;
+}
+
+#tree{
+    background-color: black;
+    color:brown;
+}
+
+.fire{
+    background: orange;
+}
+ *{
+        text-align:center;
+        font-style: italic;
+    }
+    p , #logo{
+        text-decoration: underline;
+
+    }

@@ -1,0 +1,24 @@
+#con1{
+    background-color: aqua;
+    height: 200px;
+}
+/*1. Descendant selector*/
+
+#con1 #heading2{
+    color: red;
+}
+
+#con1 .box{
+    background-color: yellow;
+    height: 100px;
+}
+
+/*2. Direct child selector*/
+
+#con2 >h2{
+    background-color: green;
+}
+
+#con2 >.box{
+    background-color: blue;
+}

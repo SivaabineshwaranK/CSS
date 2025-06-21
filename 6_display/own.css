@@ -1,0 +1,35 @@
+#boss{
+    width: 400px;
+    border: 20px  black;
+    border-style: solid;
+    background-color: black;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+#boss> button{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(205, 246, 246);
+    
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    border: none;
+    
+}
+
+
+
+
+#boss>button:hover{
+    color: white;
+    background-color: coral;
+
+}

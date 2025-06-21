@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav>ul{
+    display:flex ;
+    gap: 20px;
+    padding: 5px;
+    justify-content: flex-end;
+    background-color: brown;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    list-style: none;
+}
+
+main{
+    
+  display: flex;
+  flex-direction: column;
+    background-color: aquamarine;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+main>p{
+    padding: 20px;
+    font-style: italic;
+}
+main>h2{
+    font-size: 60px;
+    font-weight: bold;
+    
+    
+}
+    
+
+main>button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+main>button:hover{
+    color: white;
+    background-color: black;
+}
+
+section{
+    height: calc(100vh - 200px);
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+   
+}
+section>.box{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+section>.box>img{
+    height: 60%;
+    width: 100%;
+border-top-left-radius: 20px;
+border-top-right-radius:20px;}
+
+section>.box>h3{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+         
+section>.box>p{
+    text-indent: 30px;
+
+}
+nav>ul>li:nth-child(4){
+    margin-right: 20px;
+    color: greenyellow;
+}
+nav>ul>li:hover{
+    color: blue;
+    background-color: black;
+}
+
+
+
+
+
+
